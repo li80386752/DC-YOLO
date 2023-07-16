@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 To training DC-YOLO_s on coco dataset, run :
 ```sh
-python train.py --data coco.yaml --epochs 100 --weights None --cfg yolov5s.yaml  --batch-size 64
+python train.py --data coco.yaml --epochs 100 --weights None --cfg DC_S.yaml  --batch-size 64
 ```
 To test your results, run :
 
